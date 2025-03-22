@@ -8,6 +8,10 @@
     <a href="{{ route('departments.create') }}" class="btn btn-primary">Add New Department</a>
 </div>
 
+<div class="d-flex justify-content-center mt-4">
+    {{ $departments->links() }}
+</div>
+
 <div class="card">
     <div class="card-body">
         <table class="table table-bordered table-striped">
