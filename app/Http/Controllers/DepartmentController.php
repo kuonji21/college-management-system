@@ -12,7 +12,8 @@ class DepartmentController extends Controller
     {
         $departments = Department::with('college')
             ->where('is_active', true)
-            ->get();
+            ->paginate(10); // Changed from ->get() to ->paginate(10)
+    
         return view('departments.index', compact('departments'));
     }
 
