@@ -20,7 +20,7 @@ This application allows users to:
 ### Installation Steps
 
 1. Clone the repository:
--git clone https://github.com/kuonji21/college-management-system.git cd college-management-system
+    -git clone https://github.com/kuonji21/college-management-system.git cd college-management-system
 
 2. Install dependencies:
 -composer install
