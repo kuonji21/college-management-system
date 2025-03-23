@@ -116,19 +116,30 @@ We follow a feature-branch workflow:
 
 ### Branch Naming Convention
 
-- Feature branches: `feature/feature-name`
-- Bug fix branches: `fix/bug-name`
+- Feature branches: `feature/feature-name`(e.g., feature/college-validation)
+- Bug fix branches: `fix/bug-name`(e.g., fix/database-timeout)
 
 ### Pull Request Process
 
-1. Create a new branch from `main`
+1. Create a new branch from `main` :
+git checkout -b feature/feature-name
+
 2. Make your changes and commit them
+git add .
+git commit -m "feat: Added input validation for college form"
+   
 3. Push your branch to GitHub
+git push origin feature/feature-name
+   
 4. Create a pull request
+Link the PR to the relevant issue using Closes #issue-number.
+Assign a reviewer (your partner).
+   
 5. Wait for code review and approval
-6. Merge the pull request
+    
+6. Merge the pull request into main after approval.
 
 ## Contributors
 
-- [Your Name](https://github.com/YOUR_USERNAME)
+- [Your Name](https://github.com/kuonji21)
 - [Partner's Name](https://github.com/PARTNER_USERNAME)
