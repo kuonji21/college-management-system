@@ -3,10 +3,10 @@
 ## Project Information
 
 - **Project Name**: College Management System
-- **GitHub Repository**: [https://github.com/YOUR_USERNAME/college-management-system](https://github.com/YOUR_USERNAME/college-management-system)
+- **GitHub Repository**: [https://github.com/kuonji21/college-management-system](https://github.com/kuonji21/college-management-system)
 - **Team Members**:
-  - [Your Name](https://github.com/YOUR_USERNAME)
-  - [Partner's Name](https://github.com/PARTNER_USERNAME)
+  - [Lance Paul Montemar](https://github.com/kuonji21)
+  - [Nino Angelo Lawan](https://github.com/Nino0s)
 
 ## Git Workflow Summary
 
@@ -20,33 +20,33 @@ For this project, we implemented a feature-branch workflow:
 ### Branch Strategy
 
 - `main`: Production-ready code
-- `feature/college-validation`: Implementation of College form validation
+- `feature/college-form-validation`: Implementation of College form validation
 - `feature/department-search`: Implementation of Department search functionality
-- `fix/database-connection`: Fix for database connection issues
-- `feature/ui-improvements`: UI layout and responsiveness improvements
+- `fix/database-connection-timeout`: Fix for database connection issues
+- `feature/department-pagination`: Adds pagination to the department listing page
 
 ## Pull Requests and Code Reviews
 
 ### PR #1: College Form Validation
 
-- **Created by**: [Your Name]
-- **Reviewed by**: [Partner's Name]
+- **Created by**: [Lance Paul Montemar]
+- **Reviewed by**: [Nino Angelo Lawan]
 - **Description**: Added input validation for College form
 - **Review Process**:
-  - [Partner] suggested improving error messages
-  - [You] made requested changes
-  - [Partner] approved the PR
+  - [Nino Angelo Lawan] suggested improving error messages
+  - [Lance Paul Montemar] made requested changes
+  - [[Nino Angelo Lawan] approved the PR
 - **Screenshot**: [Insert screenshot of PR]
 
 ### PR #2: Department Search Functionality
 
-- **Created by**: [Partner's Name]
-- **Reviewed by**: [Your Name]
+- **Created by**: [[Nino Angelo Lawan]
+- **Reviewed by**: [Lance Paul Montemar]
 - **Description**: Added search functionality for Departments
 - **Review Process**:
-  - [You] suggested adding pagination
-  - [Partner] implemented the suggestion
-  - [You] approved the PR
+  - [Lance Paul Montemar] suggested adding pagination
+  - [Nino Angelo Lawan] implemented the suggestion
+  - [Lance Paul Montemar] approved the PR
 - **Screenshot**: [Insert screenshot of PR]
 
 ## GitHub Issues
@@ -54,17 +54,17 @@ For this project, we implemented a feature-branch workflow:
 We used GitHub Issues to track tasks and bugs:
 
 1. **Issue #1**: Implement input validation for College form
-   - Assigned to: [Your Name]
+   - Assigned to: [Lance Paul Montemar]
    - Status: Closed
    - Screenshot: [Insert screenshot]
 
 2. **Issue #2**: Add search functionality for Departments
-   - Assigned to: [Partner's Name]
+   - Assigned to: [Nino Angelo Lawan]
    - Status: Closed
    - Screenshot: [Insert screenshot]
 
 3. **Issue #3**: Fix database connection timeout issue
-   - Assigned to: [Your Name]
+   - Assigned to: [Lance Paul Montemar]
    - Status: Closed
    - Screenshot: [Insert screenshot]
 
